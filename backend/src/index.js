@@ -16,7 +16,7 @@ app.use(userRoutes);
 
 
 
-const port = 8080;
+const port = 8000;
 app.listen(port, async () => {
   try {
     await ConnectDatabase();
